@@ -2,7 +2,7 @@ body{
 	background-color:black;
 	display:grid;
 	grid-template-columns:5vh 1fr 1fr 1fr 5vh; 
-	grid-template-rows:10vh 10vh 60vh 10vh ; 
+	grid-template-rows:10vh 10vh 68vh 10vh ; 
 	grid-template-areas:
 	". header header header ."
 	". nav nav nav ." 
@@ -17,6 +17,13 @@ header{
 nav{
 	grid-area:nav;
 	background-color:;
+	text-align:center;
+}
+nav ul{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	list-style-type:none;
+	padding:0;
 }
 main{
 	grid-area:main;
@@ -26,6 +33,6 @@ footer{
 	grid-area:footer;
 	background-color:;
 }
-h1{
+h1, a{
 	color:white;
 }
