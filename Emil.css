@@ -1,0 +1,31 @@
+body{
+	background-color:black;
+	display:grid;
+	grid-template-columns:5vh 1fr 1fr 1fr 5vh; 
+	grid-template-rows:10vh 10vh 60vh 10vh ; 
+	grid-template-areas:
+	". header header header ."
+	". nav nav nav ." 
+	". main main main ."
+	". footer footer footer .";
+}
+header{
+	background-color:;
+	text-align:center;
+	grid-area:header;
+}
+nav{
+	grid-area:nav;
+	background-color:;
+}
+main{
+	grid-area:main;
+	background-color:;
+}
+footer{
+	grid-area:footer;
+	background-color:;
+}
+h1{
+	color:white;
+}
