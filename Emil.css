@@ -2,7 +2,7 @@ body{
 	background-image: url("https://cdn.discordapp.com/attachments/690097319751974924/799264548094869504/hFOObv6VdrXFz12LNnuKFAWbDH-A429AigPhXjL-FHOlqstKgzqxdH9MTrDg_3F_LPFzgQDIhfKqcJpvdLPNA9rFw640-h400-e3.png");
 	display:grid;
 	grid-template-columns:10vh 1fr 1fr 1fr 10vh; 
-	grid-template-rows:10vh 10vh 500vh 10vh ; 
+	grid-template-rows:10vh 10vh 1fr 10vh ; 
 	grid-template-areas:
 	". header header header ."
 	". nav nav nav ." 
@@ -31,13 +31,21 @@ main p{
 main img.Jupiter{
 	height:40vh;
 	width:40vh;
-	
 	margin-top:0px;
-	
 }
 main img.Saturnus{
 	height:40vh;
 	width:60vh;
+	margin-top:0px;
+}
+main img.Uranus{
+	height:40vh;
+	width:40vh;
+	margin-top:0px;
+}
+main img.Neptunus{
+	height:40vh;
+	width:40vh;
 	margin-top:0px;
 }
 main{
@@ -53,7 +61,7 @@ footer{
 h1, a, p, h2, h3{
 	color:#F5FFFA;
 }
-h3{
+h3, h4, h5{
   display: block;
   font-size: 1.5em;
   margin-top: 0.83em;
@@ -61,4 +69,5 @@ h3{
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  color:#F5FFFA;
 }
