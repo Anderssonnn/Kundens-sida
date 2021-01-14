@@ -1,8 +1,8 @@
 body{
-	background-color:black;
+	background-image: url("https://cdn.discordapp.com/attachments/690097319751974924/799264548094869504/hFOObv6VdrXFz12LNnuKFAWbDH-A429AigPhXjL-FHOlqstKgzqxdH9MTrDg_3F_LPFzgQDIhfKqcJpvdLPNA9rFw640-h400-e3.png");
 	display:grid;
-	grid-template-columns:5vh 1fr 1fr 1fr 5vh; 
-	grid-template-rows:10vh 10vh 68vh 10vh ; 
+	grid-template-columns:10vh 1fr 1fr 1fr 10vh; 
+	grid-template-rows:10vh 10vh 500vh 10vh ; 
 	grid-template-areas:
 	". header header header ."
 	". nav nav nav ." 
@@ -10,13 +10,12 @@ body{
 	". footer footer footer .";
 }
 header{
-	background-color:;
+	background-color:#1B262C;
 	text-align:center;
 	grid-area:header;
 }
 nav{
 	grid-area:nav;
-	background-color:;
 	text-align:center;
 }
 nav ul{
@@ -25,14 +24,41 @@ nav ul{
 	list-style-type:none;
 	padding:0;
 }
+nav a
+main p{
+	text-align:center;
+}
+main img.Jupiter{
+	height:40vh;
+	width:40vh;
+	
+	margin-top:0px;
+	
+}
+main img.Saturnus{
+	height:40vh;
+	width:60vh;
+	margin-top:0px;
+}
 main{
 	grid-area:main;
-	background-color:;
+	background-color:#1B262C;
+	padding-left:10px;
+	padding-right:10px;
 }
 footer{
 	grid-area:footer;
-	background-color:;
+	background-color:#1A1A2E;
 }
-h1, a{
-	color:white;
+h1, a, p, h2, h3{
+	color:#F5FFFA;
+}
+h3{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
