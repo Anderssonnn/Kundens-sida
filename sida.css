@@ -12,6 +12,7 @@ header{
 	background-color: #141d2d;
 	color: #a4a380;
 	text-align: center;
+	font-family: Lucida Console;
 }
 
 main{
@@ -22,6 +23,7 @@ nav{
 	background-color: #302f0e;
 	color: #a4a380;
 	border-radius: 30px;
+	font-family: Lucida Console;
 }
 
 footer{
@@ -31,6 +33,7 @@ footer{
 
 p{
 	color: black;
+	font-family: Lucida Console;
 }
 
 .pos-a{
@@ -53,22 +56,32 @@ p{
 	grid-row: 4;
 }
 
+.pos-e{
+	grid-column: 2 / 4;
+	grid-row: 3;
+}
+
 .color-a{
 	color: #5B4C21;
+	font-family: Lucida Console;
 }
 
 .color-b{
 	color: #365B21;
+	font-family: Lucida Console;
 }
 
 .color-c{
 	color: #B4B385;
+	font-family: Lucida Console;
 }
 
 .color-d{
 	color: #922B2B;
+	font-family: Lucida Console;
 }
 
 .color-e{
 	color: #641A68;
+	font-family: Lucida Console;
 }
