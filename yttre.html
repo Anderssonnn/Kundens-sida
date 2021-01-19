@@ -3,7 +3,7 @@
 	<head> <!-- Det som inte syns på sidan (Emil)-->
 		<meta charset="utf-8"><!-- Impoterar tecken data bas (Emil)-->
 		<title> Coola rymden</title> <!-- vad som står på taben (Emil)-->
-		<link href="Emil.css" rel="stylesheet"> <!-- Extern Css(Emil) -->
+		<link href="Style.css" rel="stylesheet"> <!-- Extern Css(Emil) -->
 	</head>
 	<body> 
 		<header>
@@ -12,7 +12,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="index1.html"> Hem </a>
+					<a href="index.html"> Hem </a>
 				</li>
 				<li>
 					<a href="inre.html"> Inre Planeter </a>
@@ -28,42 +28,50 @@
 				</li>
 			</ul>
 		</nav>
-		<main>
-			<p>De fyra yttre planeterna, eller gasjättarna, utgör 99 procent av all den massa som finns i omloppsbana runt solen.
-			Jupiter och Saturnus består till största delen av väte och helium medan Uranus och Neptunus har större andel is. 
-			Det har föreslagits att de två sistnämnda tillhör en egen kategori, "isjättar", men detta är en ännu inte allmänt accepterad definition.
-			Alla fyra har ringar, men det är bara Saturnus ringar som är lätta att observera från jorden.</p>
-			
-			<h2> Jupiter</h2>
-			<img class="Jupiter" src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Bild på jupiter">
-			<p>Jupiter (5,2 AU) har, med sina 318 jordmassor, 2,5 gånger så mycket massa som alla de andra planeterna sammantaget. 
-			Jupiter består huvudsakligen av väte och helium. Jupiters höga inre värme skapar ett antal halv-permanenta inslag i dess turbulenta atmosfär som till exempel den Stora röda fläcken.
-			Jupiter har sjuttionio kända månar. De fyra största, Ganymedes, Callisto, Io, och Europa, visar en stor likhet med stenplaneterna, till exempel vulkanism och en varm kärna.
-			Ganymedes, den största av solsystemets månar, är större än Merkurius. Jupiter har mörka ringar som är väldigt tunna.</p>
-			
-			<h3>Saturnus</h3>
-			<img class="Saturnus" src="https://images.bonnier.cloud/files/ill/production/2018/10/14014452/saturn_0.jpg?auto=compress&fit=crop&min-w=600&min-h=315&max-w=1200&max-h=630" alt="Bild på Saturnus">
-			<p>Saturnus (9,5 AU) karakteriseras av sitt utbredda ringsystem men har ett flertal likheter med Jupiter såsom dess sammansättning i atmosfären och dess magnetosfär.
-			Även om Saturnus har 60 procent av Jupiters volym så är dess 95 jordmassor mindre än en tredjedel av Jupiters massa, vilket gör Saturnus till den planet i solsystemet med lägst densitet. 
-			Saturnus har sextiotvå kända månar. Två av månarna: Titan och Enceladus visar tecken på geologisk aktivitet, även om de till största delen består av is.
-			Titan är större än Merkurius och är den enda månen i solsystemet med en betydande atmosfär.</p>
-			
-			<h4>Uranus</h4>
-			<img class="Uranus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1024px-Uranus2.jpg" alt="Bild på Uranus">
-			<p> Uranus (19,6 AU) är med sina 14 jordmassor den lättaste av de yttre planeterna.
-			Olikt de andra gasjättarna så kretsar den runt solen liggande på sidan då dess axellutning är över 90 grader mot ekliptikan. 
-			Den har en mycket kallare kärna än övriga gasjättar och ger ifrån sig mycket lite värmestrålning.
-			Uranus har 27 kända månar varav Titania, Oberon, Umbriel, Ariel och Miranda är de största.</p>
-			
-			<h5>Neptunus</h5>
-			<img class="Neptunus" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" alt="Bild på Neptunus">
-			<p> Neptunus (30 AU) är något mindre än Uranus men som – trots det – väger mer med sina 17 jordmassor och har därför markant högre densitet. 
-			Den ger också ifrån sig mer strålning från sitt inre, dock inte lika mycket som Saturnus och Jupiter.
-			Neptunus har tretton kända månar. Den största, Triton, är geologiskt aktiv med gejsrar med flytande kväve.
-			Triton är den enda större månen med en retrograd rörelse. Neptunus åtföljs av ett antal småplaneter i samma omloppsbana, så kallade trojanska asteroider, i 1:1-banresonans med planeten.</p>
+		<main class="container">
+			<div>
+				<h2> Jupiter</h2>
+				<img class="Kvadrat" src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Bild på jupiter">
+				<p>Jupiter (5,2 AU) har, med sina 318 jordmassor, 2,5 gånger så mycket massa som alla de andra planeterna sammantaget. 
+				Jupiter består huvudsakligen av väte och helium. Jupiters höga inre värme skapar ett antal halv-permanenta inslag i dess turbulenta atmosfär som till exempel den Stora röda fläcken.
+				Jupiter har sjuttionio kända månar. De fyra största, Ganymedes, Callisto, Io, och Europa, visar en stor likhet med stenplaneterna, till exempel vulkanism och en varm kärna.
+				Ganymedes, den största av solsystemets månar, är större än Merkurius. Jupiter har mörka ringar som är väldigt tunna.</p>
+			</div>
+
+			<div>
+				<h3>Saturnus</h3>
+				<img class="Saturnus" src="https://images.bonnier.cloud/files/ill/production/2018/10/14014452/saturn_0.jpg?auto=compress&fit=crop&min-w=600&min-h=315&max-w=1200&max-h=630" alt="Bild på Saturnus">
+				<p>Saturnus (9,5 AU) karakteriseras av sitt utbredda ringsystem men har ett flertal
+				likheter med Jupiter såsom dess sammansättning i atmosfären och dess magnetosfär.
+				Även om Saturnus har 60 procent av Jupiters volym så är dess 95 jordmassor mindre än en tredjedel av Jupiters massa,
+				vilket gör Saturnus till den planet i solsystemet med lägst densitet. 
+				Saturnus har sextiotvå kända månar.
+				Två av månarna: Titan och Enceladus visar tecken på geologisk aktivitet, även om de till största delen består av is.
+				Titan är större än Merkurius och är den enda månen i solsystemet med en betydande atmosfär.</p>
+			</div>
+
+			<div>
+				<h4>Uranus</h4>
+				<img class="Kvadrat" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1024px-Uranus2.jpg" alt="Bild på Uranus">
+				<p> Uranus (19,6 AU) är med sina 14 jordmassor den lättaste av de yttre planeterna.
+				Olikt de andra gasjättarna så kretsar den runt solen liggande på sidan då dess axellutning är över 90 grader mot ekliptikan. 
+				Den har en mycket kallare kärna än övriga gasjättar och ger ifrån sig mycket lite värmestrålning.
+				Uranus har 27 kända månar varav Titania, Oberon, Umbriel, Ariel och Miranda är de största.</p>
+			</div>
+
+			<div>
+				<h5>Neptunus</h5>
+				<img class="Kvadrat" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" alt="Bild på Neptunus">
+				<p> Neptunus (30 AU) är något mindre än Uranus men som – trots det – väger mer med sina 17 jordmassor och har därför markant högre densitet. 
+				Den ger också ifrån sig mer strålning från sitt inre, dock inte lika mycket som Saturnus och Jupiter.
+				Neptunus har tretton kända månar. Den största, Triton, är geologiskt aktiv med gejsrar med flytande kväve.
+				Triton är den enda större månen med en retrograd rörelse. Neptunus åtföljs av ett antal småplaneter i samma omloppsbana,
+				så kallade trojanska asteroider, i 1:1-banresonans med planeten.</p>¨
+			</div>
+
 		</main>
 		<footer>	
-		<a> Om oss </a>
+			<p class="Center">© 2021 All rights reserved to Axel, Emil and Noel</p>
 		</footer>		
 	</body>
 </html>
