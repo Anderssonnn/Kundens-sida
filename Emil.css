@@ -9,66 +9,80 @@ body{
 	". main main main ."
 	". footer footer footer .";
 }
+
 header{
 	background-color:#1B262C;
 	text-align:center;
 	grid-area:header;
 }
+
 nav{
 	grid-area:nav;
 	text-align:center;
 }
+
 nav ul{
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 	list-style-type:none;
 	padding:0;
 	margin-top:25px;
 }
+
 nav a{
 	font-size:2em;
 }
+
 main p{
-	text-align:center;
+	text-align:left;
 }
+
 main img.Jupiter{
 	height:40vh;
 	width:40vh;
 	margin-top:0px;
 }
+
 main img.Saturnus{
 	height:40vh;
 	width:60vh;
 	margin-top:0px;
 }
+
 main img.Uranus{
 	height:40vh;
 	width:40vh;
 	margin-top:0px;
 }
+
 main img.Neptunus{
 	height:40vh;
 	width:40vh;
 	margin-top:0px;
 }
+
 main{
 	grid-area:main;
 	background-color:#1B262C;
 	padding-left:10px;
 	padding-right:10px;
 }
+
 footer{
 	grid-area:footer;
 	background-color:#1A1A2E;
 }
+
 h1, a, p, h2, h3{
 	color:#F5FFFA;
 }
+
 h1{
 	font-size:3em;
 	margin-top:15px;
 	margin-bottom:15px;
 }
+
 h3, h4, h5{
   display: block;
   font-size: 1.5em;
