@@ -1,118 +1,106 @@
-body{
-	background-color: black;
-	background-image: url("https://cdn.discordapp.com/attachments/690097319751974924/799264548094869504/hFOObv6VdrXFz12LNnuKFAWbDH-A429AigPhXjL-FHOlqstKgzqxdH9MTrDg_3F_LPFzgQDIhfKqcJpvdLPNA9rFw640-h400-e3.png");
-	display:grid;
-	grid-template-columns:10vh 1fr 1fr 1fr 10vh; 
-	grid-template-rows:10vh 10vh 1fr 10vh ; 
-	grid-template-areas:
-	". header header header ."
-	". nav nav nav ." 
-	". main main main ."
-	". footer footer footer .";
-	
-}
+<!DOCTYPE html><!--Anger vilken version utav html jag använder-->
+<!--Visar vilket språk på sidan jag använder och starttaggen för dokummentet-->
+<html lang="sv"><!--start på koden-->
+<!--info om sidan som inte är synligt-->
+	<head><!-- starttagg head-->
+		<meta charset="utf-8"><!--anger teckenkodning-->
+		<title>Inre Planeter</title><!-- titel på sidan, texten som visas på fliken-->
+		<link href="Style.css" rel="stylesheet"><!--länkar html med css filen Style.css-->
+	</head><!-- sluttagg head-->
+	<!-- här börjar allt som kommer att visas på sidan-->
+	<body><!-- starttagg på body-->
+	<!--huvudet på sidan, allt som är längst upp-->
+		<header><!--starttagg header-->
+			<h1>Inre Planeter</h1><!-- huvudruubriken på sidan-->
+		</header><!--sluttagg header-->
+		<!--navigationen på sidan-->
+		<nav><!--starttagg nav -->
+			<ul><!--skapar en lista-->
+				<li><!--starttagg på raden-->
+					<a href="index.html"> Hem </a><!--första raden på listan är kopplad till index.html, istället för en länk så visas "Hem"-->
+				</li><!--sluttagg på raden-->
+				<li><!--starttagg på raden-->
+					<a href="inre.html"> Inre Planeter </a><!--en lista som är kopplad till inre.html, istället för en länk så visas "Inre Planeter"-->
+				</li><!--sluttagg på raden-->
+				<li><!--starttagg på raden-->
+					<a href="yttre.html"> Yttre Planeter </a><!--en lista som är kopplad till yttre.html, istället för en länk så visas "Yttre Planeter"-->
+				</li><!--sluttagg på raden-->
+				<li><!--starttagg på raden-->
+					<a href="rymden.html"> Om Rymden </a><!--en lista som är kopplad till rymden.html, istället för en länk så visas "Om Rymden"-->
+				</li><!--sluttagg på raden-->
+				<li><!--starttagg på raden-->
+					<a href="oss.html"> Om Oss </a><!--en lista som är kopplad till oss.html, istället för en länk så visas "Om Oss"-->
+				</li><!--sluttagg på raden-->
+			</ul><!--slutet på listan-->
+		</nav><!--sluttagg nav-->
+		<!--main är huvudämnet på sidan-->
+		<main class="container"> <!--starttagg main, class container placerar main i grid-->
+            
+            <div><!-- starttagg div-->
+			    <h3>Merkurius</h3><!-- rubrik för texten-->
+				    <img class="Kvadrat" src="https://www.startrekdb.se/astronomi/bilder/mercury1.jpg" alt="Planeten Merkusius"><!-- bild på merkurius, class "kvadrat" som anpassar bilden till css kommand-->
+				    <p>Mer fakta om Merkurius <a href="https://sv.wikipedia.org/wiki/Merkurius" target="_blank">Tryck här!</a></p><!-- paragraf som är kopplad till en länk-->
+				    <p>Merkurius har en diameter på 4 879 kilometer. Den har inga månar. Den stora järnrika kärnan lämnar <!-- starttagg paragraf-->
+                    <br>endast omkring 410 km kvar för de yttre strukturerna av Merkurius, varav skorpan har beräknats vara <!-- text med en line break-->
+                    <br>cirka 20–50 km tjock, vilket ungefär motsvarar tjockleken på jordens kontinentalskorpor. En mycket <!-- text med en line break-->
+                    <br>utmärkande detalj för Merkurius yta är det stora antalet kammar, som i vissa fall sträcker sig över flera <!-- text med en line break-->
+                    <br>hundra kilometer. Man tror att de bildades när Merkurius kärna och mantel svalnade och krympte efter <!-- text med en line break-->
+                    <br>det att skalet hade stelnat. </p><!-- text med en line break, sluttagg paragraf-->
+            </div><!-- sluttagg div-->
 
-header{
-	background-color:#1B262C;
-	text-align:center;
-	grid-area:header;
-}
+            <div class="right"><!-- starttagg div, class "right" anpassar till css kommands-->
+			    <h4>Venus</h4><!-- rubrik för texten-->
+				    <img class="Kvadrat" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Planeten Venus" ><!-- bild på venus, class "kvadrat" som anpassar bilden till css kommand-->
+				    <p>Mer fakta om Venus <a href="https://sv.wikipedia.org/wiki/Venus" target="_blank">Tryck här!</a></p><!-- paragraf som är kopplad till en länk-->
+				    <p>Venus har en diameter på 12 104 kilometer. Den har inga månar. Venus inre är ganska likt jordens. <!-- starttagg paragraf-->
+                    <br>Den yttre delen av Venus består huvudsakligen av ett fast skikt av berg som kallas skorpan och som är <!-- text med en line break-->
+                    <br> ungefär 40 km tjockt. Skorpan är full av kamrar med smält berg som kallas magma. Dessa magmakamrar <!-- text med en line break-->
+                    <br>matar vulkaner på ytan. Under skorpan finns manteln som är ungefär 3 000 km djup. Detta är ett ytterst hett <!-- text med en line break-->
+                    <br>område där halvsmält berg roterar som en tjock klibbig vätska. Berget i manteln transporterar värme <!-- text med en line break-->
+                    <br>till ytan genom konvektion, det förlopp där het materia stiger och kall sjunker. Överdelen av konvektions- <!-- text med en line break-->
+                    <br>strömmarna, där den heta materien är närmast ytan, kallas hetpunkter. Hetpunkterna åstadkommer <!-- text med en line break-->
+                    <br>de magmakamrar som matar vulkaner och de skjuter ibland upp hela skorpan och får marken att bukta ut. <!-- text med en line break-->
+                    <br>I Venus mitt finns kärnan, ett intensivt hett klot av smält metall, huvudsakligen nickel och järn. <!-- text med en line break-->
+                    <br>Kärnans temperatur hålls uppe på grund av trycket från Venus övre lager. Ingen vet säkert om kärnan är <!-- text med en line break-->
+                    <br>flytande eller fast eller bara delvis fast som jordens. De flesta teorierna om Venus inre kommer från jämförelser <!-- text med en line break-->
+                    <br>med jorden. Man tror att Venus och jorden bildats på liknande sätt och i samma del av solsystemet, så den materia <!-- text med en line break-->
+                    <br>som planeterna består av bör vara ungefär samma.</p><!-- text med en line break, sluttagg paragraf-->
+            </div><!-- sluttagg div-->
+            
+            <div><!-- starttagg div-->
+			<h5>Jorden</h5><!-- rubrik för texten-->
+				<img class="Kvadrat" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/EpicEarth-Globespin%282016May29%29.gif/200px-EpicEarth-Globespin%282016May29%29.gif" alt="Planeten Jorden" ><!-- bild på jorden, class "kvadrat" som anpassar bilden till css kommand-->
+				<p>Mer fakta om Jorden <a href="https://sv.wikipedia.org/wiki/Jorden" target="_blank">Tryck här!</a></p><!-- paragraf som är kopplad till en länk-->
+				<p>Jorden har en diameter på 12 742 kilometer. Den har 1 måne. Det tidigaste material som finns i <!-- starttagg paragraf-->
+                <br>solsystemet är daterad till 4,56 miljarder år sedan. För 4,54 miljarder år sedan bildades jorden och de <!-- text med en line break-->
+                <br>andra planeterna ur solnebulosan, en skivformad massa av stoft och gas som blev över när solen föddes. <!-- text med en line break-->
+                <br>Uppbyggandet av jorden genom ackretion var i stort sett över inom 10–20 miljoner år. Till en början var jorden <!-- text med en line break-->
+                <br>en smält och glödande massa, men efterhand kyldes de yttre delarna ner såpass mycket att vatten <!-- text med en line break-->
+                <br>började ackumuleras i atmosfären och regn falla mot ytan vilket ledde till att en fast yttre skorpa bildades.<!-- text med en line break-->
+                <br>Månen bildades strax därefter, möjligen som ett resultat av en kollision mellan jorden och en <!-- text med en line break-->
+                <br>annan planet av ungefär Mars storlek. En stor del av denna materia skulle ha stannat på jorden medan <!-- text med en line break-->
+                <br>resten slungades tillbaka ut i rymden. Av den materia som kastades tillbaka ut i rymden skulle en <!-- text med en line break-->
+                <br>viss del hamnat i omloppsbana runt jorden, och det är ur denna materia som månen sedan tros ha skapats<!-- text med en line break-->
+                <br>(genom gravitationens successiva hopslagning av olika element i omloppsbanan).</p><!-- text med en line break, sluttagg paragraf-->
+            </div><!-- sluttagg div-->
 
-nav{
-	grid-area:nav;
-	text-align:center;
-}
-
-nav ul{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-	list-style-type:none;
-	padding:0;
-	margin-top:25px;
-}
-
-nav a{
-	font-size:2em;
-}
-
-main img.Kvadrat{
-	height:40vh;
-	width:40vh;
-	margin-top:0px;
-}
-
-main img.Saturnus{
-	height:40vh;
-	width:60vh;
-	margin-top:0px;
-}
-
-main{
-	display:grid;
-	grid-area:main;
-	background-color:#1B262C;
-	padding-left:30px;
-	padding-right:30px;
-}
-main.container{
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas:
-	"div div"
-	"div div";
-}
-footer{
-	grid-area:footer;
-	background-color:#1A1A2E;
-}
-div{
-	margin-right: 10px;
-}
-h1, a, p, h2, h3{
-	color:#F5FFFA;
-}
-
-h1{
-	font-size:3em;
-	margin-top:auto;
-	margin-bottom:auto;
-}
-
-h3, h4, h5, h6{
-  display: block;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  color:#F5FFFA;
-}
-
-.Center{
-	text-align: center;
-}
-
-img.Center{
-	margin-left:auto ;
-	margin-right: auto;
-	display: block;
-}
-
-img.SolSystem{
-	width: 960px;
-	height: 540px;
-}
-
-.Align{
-	display: inline-block;
-}
-
-p.Align{
-	display: inline-block;
-	text-align:right;
-}
-
-.right{
-	margin-left: auto;
-}
+            <div class="right"><!-- starttagg div, class "right" anpassar till css kommands-->
+			    <h6>Mars</h6><!-- rubrik för texten-->
+				    <img class="Kvadrat" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Mars_Hubble.jpg" alt="Planeten Mars"><!-- bild på mars, class "kvadrat" som anpassar bilden till css kommand-->
+				    <p>Mer fakta om Mars <a href="https://sv.wikipedia.org/wiki/Mars_(planet)" target="_blank">Tryck här!</a></p><!-- paragraf som är kopplad till en länk-->
+				    <p>Mars har en diameter på 6 779 kilometer. Den har 2 månar. Mars diameter är ungefär hälften så <!-- starttagg paragraf-->
+                    <br>stor som jordens och massan är ungefär en tiondel så stor. Samtidigt har Mars en ungefär dubbelt så stor <!-- text med en line break-->
+                    <br>diameter som månen och tio gånger större massa. Storleksmässigt ligger Mars alltså nästan mitt emellan <!-- text med en line break-->
+                    <br>jorden och månen. Mars totala yta är marginellt mindre än de delar av jorden som är täckta av land. <!-- text med en line break-->
+                    <br>Densiteten är den lägsta av alla stenplaneter i solsystemet. Trots att solsystemets minsta planet Merkurius <!-- text med en line break-->
+                    <br>har både mindre diameter och lägre massa än Mars är ytgravitationen något lägre på Mars på grund av den <!-- text med en line break-->
+                    <br>låga densiteten. Detta innebär att ett föremål eller en person skulle ha mindre tyngd på Mars än <!-- text med en line break-->
+                    <br>på någon av de andra planeterna.</p><!-- text med en line break, sluttagg paragraf-->
+            </div><!-- sluttagg div-->
+		</main> <!-- sluttagg main-->
+		
+		<footer><!-- starttagg footer-->
+			<p class="Center">© 2021 All rights reserved to Axel, Emil and Noel</p><!-- paragraf med copyright, class "center" anpassar till css kommand-->
+		</footer><!-- sluttagg footer-->
+	</body><!-- sluttag body-->
+</html><!-- sluttag html-->
