@@ -1,88 +1,85 @@
-body{
-	background-color: black;
-	background-image: url("https://cdn.discordapp.com/attachments/690097319751974924/799264548094869504/hFOObv6VdrXFz12LNnuKFAWbDH-A429AigPhXjL-FHOlqstKgzqxdH9MTrDg_3F_LPFzgQDIhfKqcJpvdLPNA9rFw640-h400-e3.png");
-	display:grid;
-	grid-template-columns:10vh 1fr 1fr 1fr 10vh; 
-	grid-template-rows:10vh 10vh 1fr 10vh ; 
-	grid-template-areas:
-	". header header header ."
-	". nav nav nav ." 
-	". main main main ."
-	". footer footer footer .";
-
+/*Koden är skriven av Emil Jönsson*/
+body{ /*typselektor för body */
+	background-color: black;/*ändrar bakgrunds färgen till svart*/
+	background-image: url("https://cdn.discordapp.com/attachments/690097319751974924/799264548094869504/hFOObv6VdrXFz12LNnuKFAWbDH-A429AigPhXjL-FHOlqstKgzqxdH9MTrDg_3F_LPFzgQDIhfKqcJpvdLPNA9rFw640-h400-e3.png");/*En bild som används till bakgrund*/
+	display:grid;/*visar griden*/
+	grid-template-columns:10vh 1fr 1fr 1fr 10vh; /*Grid kolumnerna*/
+	grid-template-rows:10vh 10vh 1fr 10vh ; /*Grid raderna*/
+	grid-template-areas: /*Dedikerar vad som ska vara i varje grid ruta*/
+	". header header header ."/*Första tre i mitten ska vara header*/
+	". nav nav nav ." /*Dem tre i mitten ska vara nav*/
+	". main main main ."/*Dem tre i mitten ska main*/
+	". footer footer footer .";/*dem tre i mitten längst ner på sidan ska vara footer*/
 }
 
-header{
-	background-color:#1B262C;
-	text-align:center;
-	grid-area:header;
+header{/*typselektor header*/
+	background-color:#1B262C; /*Backgundsfärg på header*/
+	text-align:center;/*Lägger texten i mitten*/
+	grid-area:header;/*den ska fylla header i griden*/
 }
 
-nav{
-	grid-area:nav;
-	text-align:center;
+nav{/*typselektor nav*/
+	grid-area:nav; /*har platsen nav i griden*/
+	text-align:center; /*texten ligger i mitten*/
 }
 
-nav ul{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-	list-style-type:none;
-	padding:0;
-	margin-top:25px;
+nav ul{ /*Avkomligsselektor för en lista i nav*/
+	display:grid; /*vissar griden*/
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr; /*Fem kolumner som är lika stora*/
+	list-style-type:none; /*Har inga prikar på sakerna i listan*/
+	padding:0; /*ingen padding*/
+	margin-top:25px; /*Marginal över listan*/
 }
 
-nav a{
-	font-size:2em;
+nav a{/*Avkomligsselektor för länkar i nav*/
+	font-size:2em; /*dubbla text storleken*/
 }
 
-main img.Kvadrat{
-	height:40vh;
-	width:40vh;
-	margin-top:0px;
+main img.Kvadrat{/*Avkomlingsselkotr och klasselektor*/
+	height:40vh;/*höjd*/
+	width:40vh;/*bredd*/
+	margin-top:0px;/*Ingen marginal högst upp*/
 }
 
-main img.Saturnus{
-	height:40vh;
-	width:60vh;
-	margin-top:0px;
+main img.Saturnus{/*Avkomlingsselektor och klass selektor*/
+	height:40vh;/*höjd*/
+	width:60vh;/*bredd*/
+	margin-top:0px;/*ingen marginl högst upp*/
 }
 
-main{
-	display:grid;
-	grid-area:main;
-	background-color:#1B262C;
-	padding-left:30px;
-	padding-right:30px;
+main{/*klasselektor main*/
+	display:grid;/*visa grid*/
+	grid-area:main;/*har platsen main i griden*/
+	background-color:#1B262C;/*backgrunds bild*/
+	padding-left:30px;/*padding vänster*/
+	padding-right:30px;/*padding höger*/
 }
 
-main.container{
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas:
-	"div div"
-	"div div";
+main.container{/*typselektor och klasselektor*/
+	grid-template-columns: 1fr 1fr;/*två kolumner*/
+	grid-template-rows: 1fr 1fr;/*två rader*/
 }
 
-footer{
-	grid-area:footer;
-	background-color:#1A1A2E;
+footer{/*typselektor footer*/
+	grid-area:footer;/*har platsen footer i griden*/
+	background-color:#1A1A2E;/*backgrundsfärg*/
 }
 
-div{
-	margin-right: 10px;
+div{/*typselektor*/
+	margin-right: 10px;/*10 pixlar marginal höger*/
 }
 
-h1, a, p, h2, h3{
-	color:#F5FFFA;
+h1, a, p, h2, h3{/*gruppselektor*/
+	color:#F5FFFA;/*färg*/
 }
 
-h1{
-	font-size:3em;
-	margin-top:auto;
-	margin-bottom:auto;
+h1{/*typselektor*/
+	font-size:3em;/*storlek på texten*/
+	margin-top:auto;/*top marginal auto*/
+	margin-bottom:auto;/*bot marginal auto*/
 }
 
-h3, h4, h5, h6{
+h3, h4, h5, h6{/*gruppselektor så att h3-h6 ser ut som h2*/
   display: block;
   font-size: 1.5em;
   margin-top: 0.83em;
@@ -93,30 +90,17 @@ h3, h4, h5, h6{
   color:#F5FFFA;
 }
 
-.Center{
-	text-align: center;
+.Center{/*klasselektor*/
+	text-align: center;/*text i mitten*/
 }
 
-img.Center{
-	margin-left:auto ;
-	margin-right: auto;
-	display: block;
+img.Center{/*klasselektor för bilder*/
+	margin-left:auto ;/*gör så att bilden kommer i mitten*/
+	margin-right: auto;/*gör så att bilden kommer i mitten*/
+	display: block;/*bestämer vilken typ av sak det ska vara*/
 }
 
-img.SolSystem{
+img.SolSystem{/*bestämer storleken på en bild*/
 	width: 960px;
 	height: 540px;
 }
-
-.Align{
-	display: inline-block;
-}
-
-p.Align{
-	display: inline-block;
-	text-align:right;
-}
-
-.right{
-	margin-left: auto;
-} 
